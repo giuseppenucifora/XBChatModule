@@ -97,8 +97,7 @@
     [self loadDataToTable];
 }
 
-- (void)loadDataToTable
-{
+<{
     items = [@[] mutableCopy];
     for (int sectionIndex = 0; sectionIndex < [[[self fetchedResultsController] sections] count]; sectionIndex ++)
     {

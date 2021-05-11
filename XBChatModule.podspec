@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'https://twitter.com/LIBRETeamStudio'
   s.library = 'xml2'
   s.public_header_files = 'Pod/Classes/**/*.h'
-  s.dependency 'XMPPFramework'
+  s.dependency 'PNXMPPFramework'
   s.dependency 'JSQMessagesViewController'
   s.dependency 'SDWebImage'
 end

@@ -1,0 +1,6 @@
+framework module XBChatModule {
+  umbrella header "XBChatModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

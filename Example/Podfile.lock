@@ -1,162 +1,178 @@
 PODS:
-  - CocoaAsyncSocket (7.3.5)
-  - CocoaLumberjack (1.6.5.1):
+  - CocoaAsyncSocket (7.4.3):
+    - CocoaAsyncSocket/All (= 7.4.3)
+  - CocoaAsyncSocket/All (7.4.3):
+    - CocoaAsyncSocket/GCD
+    - CocoaAsyncSocket/RunLoop
+  - CocoaAsyncSocket/GCD (7.4.3)
+  - CocoaAsyncSocket/RunLoop (7.4.3)
+  - CocoaLumberjack (1.9.2):
+    - CocoaLumberjack/Extensions (= 1.9.2)
+  - CocoaLumberjack/Core (1.9.2)
+  - CocoaLumberjack/Extensions (1.9.2):
     - CocoaLumberjack/Core
-    - CocoaLumberjack/Extensions
-  - CocoaLumberjack/Core (1.6.5.1)
-  - CocoaLumberjack/Extensions (1.6.5.1):
-    - CocoaLumberjack/Core
-  - FBSnapshotTestCase (1.4)
-  - JSQMessagesViewController (6.0.0):
-    - JSQSystemSoundPlayer (~> 2.0.0)
-  - JSQSystemSoundPlayer (2.0.0)
-  - SDWebImage (3.7.1):
-    - SDWebImage/Core
-  - SDWebImage/Core (3.7.1)
-  - XBChatModule (0.1.1):
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - KissXML (5.0.3):
+    - KissXML/Standard (= 5.0.3)
+  - KissXML/Core (5.0.3)
+  - KissXML/Standard (5.0.3):
+    - KissXML/Core
+  - libidn (1.32.1)
+  - PNXMPPFramework (0.1.1):
+    - PNXMPPFramework/Authentication (= 0.1.1)
+    - PNXMPPFramework/BandwidthMonitor (= 0.1.1)
+    - PNXMPPFramework/Categories (= 0.1.1)
+    - PNXMPPFramework/Core (= 0.1.1)
+    - PNXMPPFramework/CoreDataStorage (= 0.1.1)
+    - PNXMPPFramework/GoogleSharedStatus (= 0.1.1)
+    - PNXMPPFramework/ProcessOne (= 0.1.1)
+    - PNXMPPFramework/Reconnect (= 0.1.1)
+    - PNXMPPFramework/Roster (= 0.1.1)
+    - PNXMPPFramework/SystemInputActivityMonitor (= 0.1.1)
+    - PNXMPPFramework/Utilities (= 0.1.1)
+    - PNXMPPFramework/XEP-0009 (= 0.1.1)
+    - PNXMPPFramework/XEP-0012 (= 0.1.1)
+    - PNXMPPFramework/XEP-0016 (= 0.1.1)
+    - PNXMPPFramework/XEP-0045 (= 0.1.1)
+    - PNXMPPFramework/XEP-0054 (= 0.1.1)
+    - PNXMPPFramework/XEP-0059 (= 0.1.1)
+    - PNXMPPFramework/XEP-0060 (= 0.1.1)
+    - PNXMPPFramework/XEP-0065 (= 0.1.1)
+    - PNXMPPFramework/XEP-0066 (= 0.1.1)
+    - PNXMPPFramework/XEP-0082 (= 0.1.1)
+    - PNXMPPFramework/XEP-0085 (= 0.1.1)
+    - PNXMPPFramework/XEP-0092 (= 0.1.1)
+    - PNXMPPFramework/XEP-0100 (= 0.1.1)
+    - PNXMPPFramework/XEP-0106 (= 0.1.1)
+    - PNXMPPFramework/XEP-0115 (= 0.1.1)
+    - PNXMPPFramework/XEP-0136 (= 0.1.1)
+    - PNXMPPFramework/XEP-0153 (= 0.1.1)
+    - PNXMPPFramework/XEP-0172 (= 0.1.1)
+    - PNXMPPFramework/XEP-0184 (= 0.1.1)
+    - PNXMPPFramework/XEP-0191 (= 0.1.1)
+    - PNXMPPFramework/XEP-0198 (= 0.1.1)
+    - PNXMPPFramework/XEP-0199 (= 0.1.1)
+    - PNXMPPFramework/XEP-0202 (= 0.1.1)
+    - PNXMPPFramework/XEP-0203 (= 0.1.1)
+    - PNXMPPFramework/XEP-0223 (= 0.1.1)
+    - PNXMPPFramework/XEP-0224 (= 0.1.1)
+    - PNXMPPFramework/XEP-0280 (= 0.1.1)
+    - PNXMPPFramework/XEP-0297 (= 0.1.1)
+    - PNXMPPFramework/XEP-0308 (= 0.1.1)
+    - PNXMPPFramework/XEP-0333 (= 0.1.1)
+    - PNXMPPFramework/XEP-0335 (= 0.1.1)
+  - PNXMPPFramework/Authentication (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/BandwidthMonitor (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/Categories (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/Core (0.1.1):
+    - CocoaAsyncSocket
+    - CocoaLumberjack (~> 1.9)
+    - KissXML
+    - libidn
+  - PNXMPPFramework/CoreDataStorage (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/GoogleSharedStatus (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/ProcessOne (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/Reconnect (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/Roster (0.1.1):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/CoreDataStorage
+  - PNXMPPFramework/SystemInputActivityMonitor (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/Utilities (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0009 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0012 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0016 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0045 (0.1.1):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/CoreDataStorage
+    - PNXMPPFramework/XEP-0203
+  - PNXMPPFramework/XEP-0054 (0.1.1):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/Roster
+  - PNXMPPFramework/XEP-0059 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0060 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0065 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0066 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0082 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0085 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0092 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0100 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0106 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0115 (0.1.1):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/CoreDataStorage
+  - PNXMPPFramework/XEP-0136 (0.1.1):
+    - PNXMPPFramework/CoreDataStorage
+    - PNXMPPFramework/XEP-0085
+    - PNXMPPFramework/XEP-0203
+  - PNXMPPFramework/XEP-0153 (0.1.1):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/XEP-0054
+  - PNXMPPFramework/XEP-0172 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0184 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0191 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0198 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0199 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0202 (0.1.1):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/XEP-0082
+  - PNXMPPFramework/XEP-0203 (0.1.1):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/XEP-0082
+  - PNXMPPFramework/XEP-0223 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0224 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0280 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0297 (0.1.1):
+    - PNXMPPFramework/Core
+    - PNXMPPFramework/XEP-0203
+  - PNXMPPFramework/XEP-0308 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0333 (0.1.1):
+    - PNXMPPFramework/Core
+  - PNXMPPFramework/XEP-0335 (0.1.1):
+    - PNXMPPFramework/Core
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - XBChatModule (0.1.2.2):
     - JSQMessagesViewController
+    - PNXMPPFramework
     - SDWebImage
-    - XMPPFramework
-  - XMPPFramework (3.6.4):
-    - XMPPFramework/Authentication
-    - XMPPFramework/BandwidthMonitor
-    - XMPPFramework/Categories
-    - XMPPFramework/Core
-    - XMPPFramework/CoreDataStorage
-    - XMPPFramework/GoogleSharedStatus
-    - XMPPFramework/KissXML
-    - XMPPFramework/ProcessOne
-    - XMPPFramework/Reconnect
-    - XMPPFramework/Roster
-    - XMPPFramework/SystemInputActivityMonitor
-    - XMPPFramework/Utilities
-    - XMPPFramework/XEP-0009
-    - XMPPFramework/XEP-0012
-    - XMPPFramework/XEP-0016
-    - XMPPFramework/XEP-0045
-    - XMPPFramework/XEP-0054
-    - XMPPFramework/XEP-0059
-    - XMPPFramework/XEP-0060
-    - XMPPFramework/XEP-0065
-    - XMPPFramework/XEP-0066
-    - XMPPFramework/XEP-0082
-    - XMPPFramework/XEP-0085
-    - XMPPFramework/XEP-0100
-    - XMPPFramework/XEP-0106
-    - XMPPFramework/XEP-0115
-    - XMPPFramework/XEP-0136
-    - XMPPFramework/XEP-0153
-    - XMPPFramework/XEP-0172
-    - XMPPFramework/XEP-0184
-    - XMPPFramework/XEP-0199
-    - XMPPFramework/XEP-0202
-    - XMPPFramework/XEP-0203
-    - XMPPFramework/XEP-0223
-    - XMPPFramework/XEP-0224
-    - XMPPFramework/XEP-0280
-    - XMPPFramework/XEP-0297
-    - XMPPFramework/XEP-0308
-    - XMPPFramework/XEP-0333
-    - XMPPFramework/XEP-0335
-  - XMPPFramework/Authentication (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/BandwidthMonitor (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/Categories (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/Core (3.6.4):
-    - CocoaAsyncSocket (~> 7.3.1)
-    - CocoaLumberjack (~> 1.6.2)
-    - XMPPFramework/Authentication
-    - XMPPFramework/Categories
-    - XMPPFramework/KissXML
-    - XMPPFramework/Utilities
-  - XMPPFramework/CoreDataStorage (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/GoogleSharedStatus (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/KissXML (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/ProcessOne (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/Reconnect (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/Roster (3.6.4):
-    - XMPPFramework/Core
-    - XMPPFramework/CoreDataStorage
-    - XMPPFramework/XEP-0203
-  - XMPPFramework/SystemInputActivityMonitor (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/Utilities (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0009 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0012 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0016 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0045 (3.6.4):
-    - XMPPFramework/Core
-    - XMPPFramework/CoreDataStorage
-    - XMPPFramework/XEP-0203
-  - XMPPFramework/XEP-0054 (3.6.4):
-    - XMPPFramework/Core
-    - XMPPFramework/Roster
-    - XMPPFramework/XEP-0153
-  - XMPPFramework/XEP-0059 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0060 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0065 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0066 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0082 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0085 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0100 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0106 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0115 (3.6.4):
-    - XMPPFramework/Core
-    - XMPPFramework/CoreDataStorage
-  - XMPPFramework/XEP-0136 (3.6.4):
-    - XMPPFramework/Core
-    - XMPPFramework/CoreDataStorage
-    - XMPPFramework/XEP-0085
-    - XMPPFramework/XEP-0203
-  - XMPPFramework/XEP-0153 (3.6.4):
-    - XMPPFramework/Core
-    - XMPPFramework/XEP-0054
-  - XMPPFramework/XEP-0172 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0184 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0199 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0202 (3.6.4):
-    - XMPPFramework/Core
-    - XMPPFramework/XEP-0082
-  - XMPPFramework/XEP-0203 (3.6.4):
-    - XMPPFramework/Core
-    - XMPPFramework/XEP-0082
-  - XMPPFramework/XEP-0223 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0224 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0280 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0297 (3.6.4):
-    - XMPPFramework/Core
-    - XMPPFramework/XEP-0203
-  - XMPPFramework/XEP-0308 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0333 (3.6.4):
-    - XMPPFramework/Core
-  - XMPPFramework/XEP-0335 (3.6.4):
-    - XMPPFramework/Core
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -164,16 +180,20 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   XBChatModule:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  CocoaAsyncSocket: 45bdbbc1c0a5ed0640ff4c42af325ba43a2f099a
-  CocoaLumberjack: baf4a09a3bcbdfea3363556a90104e026d3504e2
-  FBSnapshotTestCase: f9f225b5ba11c8d8c09075590490df16314e4d62
-  JSQMessagesViewController: 61c8defbe86f3859f796146f082f8231dad8de66
-  JSQSystemSoundPlayer: c98443b1cbb3b45db09d0d3d6c2355cf78294981
-  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
-  XBChatModule: 4ed5e0c26e25a4a70723cca72e6af5c893081d11
-  XMPPFramework: 5a8555132822ebb3e11d2bac0258e62754315bc5
+  CocoaAsyncSocket: a18c75dca4b08723628a0bacca6e94803d90be91
+  CocoaLumberjack: 628fca2e88ef06f7cf6817309aa405f325d9a6fa
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  KissXML: d19dd6dc65e0dc721ba92b3077b8ebdd240f1c1e
+  libidn: fdf56b4958f08f8544c4cf45b3ed28bfe45c2b05
+  PNXMPPFramework: ded2fd8deb8133a1d438d960252d458324365317
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  XBChatModule: 2c81ccb3c7d50386a0b53879f8845237a3318031
 
-COCOAPODS: 0.34.4
+PODFILE CHECKSUM: 05305d08dca13c4634a6fef5b45ae4a766340eaf
+
+COCOAPODS: 1.0.0.beta.4

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5C5038CD235BD27A3479FA21 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5F7FA4F513D4BA6338F2A46 /* libPods-Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,9 +22,10 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		AF8864ECD5A206A53D4DDEFC /* libPods-XBChatModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06A240B6C3A5F357432A58BD /* libPods-XBChatModule.a */; };
 		B66F368D1A22E85C009FE0DB /* XBChatModulePlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = B66F368C1A22E85C009FE0DB /* XBChatModulePlist.plist */; };
 		B6C64B841A133D08003B1332 /* girl_9.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C64B831A133D08003B1332 /* girl_9.png */; };
+		E5F605EA0A839B28D5F1F9B4 /* Pods_XBChatModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49B4365DD9E718912B24526 /* Pods_XBChatModule.framework */; };
+		F676696D440619CDCB5BB6E3 /* Pods_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78183C0C7193D6964CA88998 /* Pods_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06A240B6C3A5F357432A58BD /* libPods-XBChatModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XBChatModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA8AF45E7078124599CFBE2 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2CE66A2C729A551A15E8E4FC /* Pods-XBChatModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBChatModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-XBChatModule/Pods-XBChatModule.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XBChatModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XBChatModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,10 +63,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		61D319F7E3176361AFCB327A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		78183C0C7193D6964CA88998 /* Pods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BE787DE38802FF8809ABF4D /* Pods-XBChatModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XBChatModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XBChatModule/Pods-XBChatModule.debug.xcconfig"; sourceTree = "<group>"; };
 		8AA770CB3A4EDB234BA0649E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9B7DD8B004EB6B135F0AF17B /* XBChatModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XBChatModule.podspec; path = ../XBChatModule.podspec; sourceTree = "<group>"; };
-		B5F7FA4F513D4BA6338F2A46 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49B4365DD9E718912B24526 /* Pods_XBChatModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XBChatModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66F368C1A22E85C009FE0DB /* XBChatModulePlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = XBChatModulePlist.plist; sourceTree = "<group>"; };
 		B6C64B831A133D08003B1332 /* girl_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = girl_9.png; sourceTree = "<group>"; };
 		EC870CC93D7C69CC9A60CD9B /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,7 +81,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				AF8864ECD5A206A53D4DDEFC /* libPods-XBChatModule.a in Frameworks */,
+				E5F605EA0A839B28D5F1F9B4 /* Pods_XBChatModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +92,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5C5038CD235BD27A3479FA21 /* libPods-Tests.a in Frameworks */,
+				F676696D440619CDCB5BB6E3 /* Pods_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,8 +127,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				B5F7FA4F513D4BA6338F2A46 /* libPods-Tests.a */,
-				06A240B6C3A5F357432A58BD /* libPods-XBChatModule.a */,
+				78183C0C7193D6964CA88998 /* Pods_Tests.framework */,
+				B49B4365DD9E718912B24526 /* Pods_XBChatModule.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -213,6 +213,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				EA0ACAA5BE853B404AF8B08C /* Copy Pods Resources */,
+				A7E96FBB3540DDC3C6F320AD /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +233,7 @@
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
 				C352A8D821AAE688228B082B /* Copy Pods Resources */,
+				AB663C48FCC9AE00AF695281 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -315,6 +317,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7E96FBB3540DDC3C6F320AD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XBChatModule/Pods-XBChatModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB663C48FCC9AE00AF695281 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C352A8D821AAE688228B082B /* Copy Pods Resources */ = {

@@ -8,22 +8,22 @@
 
 #import <Foundation/Foundation.h>
 
-#import "XMPPReconnect.h"
+#import <PNXMPPFramework/XMPPReconnect.h>
 
-#import "XMPPRoster.h"
-#import "XMPPRosterCoreDataStorage.h"
+#import <PNXMPPFramework/XMPPRoster.h>
+#import <PNXMPPFramework/XMPPRosterCoreDataStorage.h>
 
-#import "XMPPvCardTempModule.h"
-#import "XMPPvCardAvatarModule.h"
-#import "XMPPvCardCoreDataStorage.h"
+#import <PNXMPPFramework/XMPPvCardTempModule.h>
+#import <PNXMPPFramework/XMPPvCardAvatarModule.h>
+#import <PNXMPPFramework/XMPPvCardCoreDataStorage.h>
 
-#import "XMPPCapabilities.h"
-#import "XMPPCapabilitiesCoreDataStorage.h"
+#import <PNXMPPFramework/XMPPCapabilities.h>
+#import <PNXMPPFramework/XMPPCapabilitiesCoreDataStorage.h>
 
-#import "XMPPMUC.h"
-#import "XMPPRoomCoreDataStorage.h"
+#import <PNXMPPFramework/XMPPMUC.h>
+#import <PNXMPPFramework/XMPPRoomCoreDataStorage.h>
 
-#import "XMPPMessageArchivingCoreDataStorage.h"
+#import <XMPPMessageArchivingCoreDataStorage.h>
 
 extern NSString *const XBChatEventConnected;
 extern NSString *const XBChatEventReceiveMessage;
